@@ -18,3 +18,6 @@ You can view the list of blocked users by going to Derpibooru's [Settings](https
 
 **View blocked users from site settings**
 ![](https://raw.githubusercontent.com/marktaiwan/Derpibooru-User-Blocker/master/screenshots/settings.png)
+
+**Hidden comments look like this**
+![](https://raw.githubusercontent.com/marktaiwan/Derpibooru-User-Blocker/master/screenshots/comment-stub.png)
