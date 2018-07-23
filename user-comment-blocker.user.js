@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Marker's User Blocker
 // @description  Block people you don't want to see in the comments and forums
-// @version      0.1
+// @version      0.2
 // @author       Marker
 // @license      MIT
 // @namespace    https://github.com/marktaiwan/
@@ -117,7 +117,8 @@
       const ele = composeElement({
         tag: 'div', attributes: {class: 'block__content alternating-color user-blocker--blacklist--row'},
         children: [{
-          tag: 'a', attributes: {href: entry.profileId, style: 'flex: auto;'}, text: entry.profileName
+          tag: 'span', attributes: {style: 'flex: auto;'},
+          children: [{tag: 'a', attributes: {href: entry.profileId}, text: entry.profileName}]
         },{
           tag: 'span',
           html: `Added <time datetime="${time.toISOString()}">${time.toLocaleString()}</time>`
@@ -228,7 +229,6 @@
 }
 .user-blocker--blacklist--remove {
   font-weight: bold;
-  float: right;
 }
 `;
     document.head.appendChild(styleElement);
