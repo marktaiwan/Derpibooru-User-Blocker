@@ -5,8 +5,8 @@
 // @author       Marker
 // @license      MIT
 // @namespace    https://github.com/marktaiwan/
-// @homepageURL  https://github.com/marktaiwan/
-// @supportURL   https://github.com/marktaiwan/
+// @homepageURL  https://github.com/marktaiwan/Derpibooru-User-Blocker
+// @supportURL   https://github.com/marktaiwan/Derpibooru-User-Blocker/issues
 // @include      https://derpibooru.org/*
 // @include      https://trixiebooru.org/*
 // @include      https://www.derpibooru.org/*
