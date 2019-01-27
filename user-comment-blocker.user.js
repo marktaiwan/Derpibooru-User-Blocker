@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Marker's User Blocker
 // @description  Block people you don't want to see in the comments and forums
-// @version      0.2
+// @version      0.3
 // @author       Marker
 // @license      MIT
 // @namespace    https://github.com/marktaiwan/
