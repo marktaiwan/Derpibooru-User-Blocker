@@ -24,6 +24,15 @@
     'markers_user_blocker',
     'Out of sight, out of mind.'
   );
+  config.registerSetting({
+    title: 'Block background ponies',
+    key: 'block_anon',
+    description: 'Hide comments from anonymous users.',
+    type: 'checkbox',
+    defaultValue: false
+  });
+
+  const BLOCK_ANON = config.getEntry('block_anon');
 
   /** Modified from https://gist.github.com/MoOx/8614711
    */
@@ -144,7 +153,7 @@
 
   function hideComment(comment) {
     const stub = document.createElement('div');
-    const commentorName = comment.querySelector('.communication__body__sender-name>a').innerText;
+    const commentorName = comment.querySelector('.communication__body__sender-name').innerText;
     const mainCommentBlock = comment.firstElementChild;
 
     stub.classList.add('block__content', 'flex', 'flex--no-wrap');
@@ -246,8 +255,7 @@
       }
 
       const anchor = comment.querySelector('.communication__body__sender-name>a');
-      if (anchor === null) continue;
-      if (blacklistContains(anchor.pathname)) {
+      if ((anchor && blacklistContains(anchor.pathname)) || (!anchor && BLOCK_ANON)) {
         hideComment(comment);
       }
     }
