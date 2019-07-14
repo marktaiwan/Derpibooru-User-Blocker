@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Marker's User Blocker
 // @description  Block people you don't want to see in the comments and forums
-// @version      0.5
+// @version      0.6
 // @author       Marker
 // @license      MIT
 // @namespace    https://github.com/marktaiwan/
@@ -14,7 +14,7 @@
 // @grant        GM_addStyle
 // @inject-into  content
 // @noframes
-// @require      https://openuserjs.org/src/libs/mark.taiwangmail.com/Derpibooru_Unified_Userscript_UI_Utility.js
+// @require      https://openuserjs.org/src/libs/mark.taiwangmail.com/Derpibooru_Unified_Userscript_UI_Utility.js?v1.0.4
 // ==/UserScript==
 
 (function () {
