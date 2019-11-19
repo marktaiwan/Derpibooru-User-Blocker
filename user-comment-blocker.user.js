@@ -1,20 +1,18 @@
 // ==UserScript==
 // @name         Marker's User Blocker
 // @description  Block people you don't want to see in the comments and forums
-// @version      0.7
+// @version      1.0.0
 // @author       Marker
 // @license      MIT
 // @namespace    https://github.com/marktaiwan/
 // @homepageURL  https://github.com/marktaiwan/Derpibooru-User-Blocker
 // @supportURL   https://github.com/marktaiwan/Derpibooru-User-Blocker/issues
-// @include      https://derpibooru.org/*
-// @include      https://trixiebooru.org/*
-// @include      https://www.derpibooru.org/*
-// @include      https://www.trixiebooru.org/*
+// @match        https://*.derpibooru.org/* 
+// @match        https://*.trixiebooru.org/* 
 // @grant        none
 // @inject-into  content
 // @noframes
-// @require      https://openuserjs.org/src/libs/mark.taiwangmail.com/Derpibooru_Unified_Userscript_UI_Utility.js?v1.0.5
+// @require      https://openuserjs.org/src/libs/mark.taiwangmail.com/Derpibooru_Unified_Userscript_UI_Utility.js?v1.2.0
 // ==/UserScript==
 
 (function () {
@@ -239,7 +237,7 @@
 
   function hideComment(comment) {
     const stub = document.createElement('div');
-    const commentorName = comment.querySelector('.communication__body__sender-name').innerText;
+    const commentorName = comment.querySelector('.communication__body__sender-name > strong > a').innerText;
     const mainCommentBlock = comment.firstElementChild;
 
     stub.classList.add('block__content', 'flex', 'flex--no-wrap');
@@ -320,7 +318,7 @@
         comment.dataset.userBlockerObserver = '1';
       }
 
-      const anchor = comment.querySelector('.communication__body__sender-name>a');
+      const anchor = comment.querySelector('.communication__body__sender-name > strong > a');
       if ((anchor && blacklistContains(anchor.pathname)) || (!anchor && BLOCK_ANON)) {
         hideComment(comment);
       }
