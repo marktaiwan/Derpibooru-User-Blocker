@@ -3,7 +3,7 @@ Allows you to hide image comments and forum posts from select users on [Derpiboo
 
 Does not hide PMs, uploaded images, or forum threads.
 
-Requires the installation of [Tampermonkey](https://tampermonkey.net/).
+Requires the installation of [Violentmonkey](https://violentmonkey.github.io/).
 
 Install: [click here](https://github.com/marktaiwan/Derpibooru-User-Blocker/raw/master/user-comment-blocker.user.js)
 
