@@ -1,16 +1,16 @@
-# Marker's Derpibooru User Blocker
-Allows you to hide image comments and forum posts from select users on [Derpibooru](https://derpibooru.org/).
+# Marker's Furbooru User Blocker
+Allows you to hide image comments and forum posts from select users on [Furbooru](https://furbooru.org/).
 
 Does not hide PMs, uploaded images, or forum threads.
 
 Requires the installation of [Violentmonkey](https://violentmonkey.github.io/).
 
-Install: [click here](https://github.com/marktaiwan/Derpibooru-User-Blocker/raw/master/user-comment-blocker.user.js)
+Install: [click here](https://github.com/marktaiwan/Derpibooru-User-Blocker/raw/furbooru/user-comment-blocker.user.js)
 
 ### How to use:
 Go to a user's profile page and click on the link that says "Hide user's comments".
 
-You can view the list of blocked users by going to Derpibooru's [Settings](https://derpibooru.org/settings?active_tab=userscript) page, under the 'Userscript' tab.
+You can view the list of blocked users by going to Derpibooru's [Settings](https://furbooru.org/settings?active_tab=userscript) page, under the 'Userscript' tab.
 
 ### Screenshots
 **Block users from their profile page**
