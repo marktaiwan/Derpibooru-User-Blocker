@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Furbooru User Blocker
 // @description  Block people you don't want to see in the comments and forums
-// @version      1.0.2
+// @version      1.0.3
 // @author       Marker
 // @license      MIT
 // @namespace    https://github.com/marktaiwan/
@@ -236,7 +236,7 @@
 
   function hideComment(comment) {
     const stub = document.createElement('div');
-    const commentorName = comment.querySelector('.communication__body__sender-name > strong > a').innerText;
+    const commentorName = comment.querySelector('.communication__body__sender-name > strong').innerText;
     const mainCommentBlock = comment.firstElementChild;
 
     stub.classList.add('block__content', 'flex', 'flex--no-wrap');
