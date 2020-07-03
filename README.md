@@ -10,18 +10,18 @@ Install: [click here](https://github.com/marktaiwan/Derpibooru-User-Blocker/raw/
 ### How to use:
 Go to a user's profile page and click on the link that says "Hide user's comments".
 
-You can view the list of blocked users by going to Derpibooru's [Settings](https://furbooru.org/settings/edit?active_tab=userscript) page, under the 'Userscript' tab.
+You can view the list of blocked users by going to Furbooru's [Settings](https://furbooru.org/settings/edit?active_tab=userscript) page, under the 'Userscript' tab.
 
 ### Screenshots
 **Block users from their profile page**
-![](https://raw.githubusercontent.com/marktaiwan/Derpibooru-User-Blocker/master/screenshots/toggle-button.png)
+![](https://raw.githubusercontent.com/marktaiwan/Derpibooru-User-Blocker/furbooru/screenshots/toggle-button.png)
 
 ---
 
 **View blocked users from site settings**
-![](https://raw.githubusercontent.com/marktaiwan/Derpibooru-User-Blocker/master/screenshots/settings.png)
+![](https://raw.githubusercontent.com/marktaiwan/Derpibooru-User-Blocker/furbooru/screenshots/settings.png)
 
 ---
 
 **Comment stubs look like this**
-![](https://raw.githubusercontent.com/marktaiwan/Derpibooru-User-Blocker/master/screenshots/comment-stub.png)
+![](https://raw.githubusercontent.com/marktaiwan/Derpibooru-User-Blocker/furbooru/screenshots/comment-stub.png)
