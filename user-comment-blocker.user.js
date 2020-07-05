@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Marker's Ponybooru User Blocker
+// @name         Ponybooru User Blocker
 // @description  Block people you don't want to see in the comments and forums
 // @version      1.1.0
 // @author       Marker
