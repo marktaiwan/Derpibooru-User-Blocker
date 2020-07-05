@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Marker's User Blocker
+// @name         Ponerpics User Blocker
 // @description  Block people you don't want to see in the comments and forums
 // @version      1.1.0
 // @author       Marker
@@ -7,8 +7,7 @@
 // @namespace    https://github.com/marktaiwan/
 // @homepageURL  https://github.com/marktaiwan/Derpibooru-User-Blocker
 // @supportURL   https://github.com/marktaiwan/Derpibooru-User-Blocker/issues
-// @match        https://*.derpibooru.org/*
-// @match        https://*.trixiebooru.org/*
+// @match        https://*.ponerpics.org/*
 // @grant        none
 // @inject-into  content
 // @noframes
