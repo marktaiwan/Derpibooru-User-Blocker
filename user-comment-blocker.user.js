@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Marker's User Blocker
+// @name         Twibooru User Blocker
 // @description  Block people you don't want to see in the comments and forums
 // @version      1.1.0
 // @author       Marker
@@ -7,12 +7,11 @@
 // @namespace    https://github.com/marktaiwan/
 // @homepageURL  https://github.com/marktaiwan/Derpibooru-User-Blocker
 // @supportURL   https://github.com/marktaiwan/Derpibooru-User-Blocker/issues
-// @match        https://*.derpibooru.org/*
-// @match        https://*.trixiebooru.org/*
+// @match        https://*.twibooru.org/*
 // @grant        none
 // @inject-into  content
 // @noframes
-// @require      https://openuserjs.org/src/libs/mark.taiwangmail.com/Derpibooru_Unified_Userscript_UI_Utility.js?v1.2.2
+// @require      https://github.com/marktaiwan/Derpibooru-Unified-Userscript-Ui/raw/master/derpi-four-u.js?v1.2.3
 // ==/UserScript==
 
 (function () {
